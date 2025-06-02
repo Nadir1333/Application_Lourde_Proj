@@ -1,7 +1,7 @@
 ﻿
 namespace projet_gestion_stagiaires_nour_nadir
 {
-    partial class btn_Quitter
+    partial class fmr_Central
     {
         /// <summary>
         /// Required designer variable.
@@ -30,80 +30,45 @@ namespace projet_gestion_stagiaires_nour_nadir
         private void InitializeComponent()
         {
             System.Windows.Forms.Label lab_SousTitre;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(btn_Quitter));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmr_Central));
             this.lab_Titre_Bienvenue = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lab_Titre_2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lab_Liste_Stagiaires = new System.Windows.Forms.Label();
             this.lab_Explication_Lst_Stagiaire = new System.Windows.Forms.Label();
+            this.lab_Liste_Stagiaires = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lab_Explication_Recherche = new System.Windows.Forms.Label();
             this.lab_Rchr_Facile = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lab_Explication_Filtrage = new System.Windows.Forms.Label();
             this.lab_Fltg_Avance = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.lab_Explication_Fichhe_Detaille = new System.Windows.Forms.Label();
             this.lab_Fiche_detaillees = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lab_Contact_Direct = new System.Windows.Forms.GroupBox();
             this.lab_Explication_Contact = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Valider_Liste = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             lab_SousTitre = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.lab_Contact_Direct.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lab_Titre_Bienvenue
-            // 
-            this.lab_Titre_Bienvenue.AutoSize = true;
-            this.lab_Titre_Bienvenue.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.lab_Titre_Bienvenue.Font = new System.Drawing.Font("Britannic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_Titre_Bienvenue.ForeColor = System.Drawing.Color.White;
-            this.lab_Titre_Bienvenue.Location = new System.Drawing.Point(124, 19);
-            this.lab_Titre_Bienvenue.Name = "lab_Titre_Bienvenue";
-            this.lab_Titre_Bienvenue.Size = new System.Drawing.Size(622, 41);
-            this.lab_Titre_Bienvenue.TabIndex = 0;
-            this.lab_Titre_Bienvenue.Text = "Bienvenue sur la Plateforme Tuteur !";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-6, -1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(949, 124);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // lab_Titre_2
-            // 
-            this.lab_Titre_2.AutoSize = true;
-            this.lab_Titre_2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.lab_Titre_2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_Titre_2.ForeColor = System.Drawing.Color.White;
-            this.lab_Titre_2.Location = new System.Drawing.Point(213, 73);
-            this.lab_Titre_2.Name = "lab_Titre_2";
-            this.lab_Titre_2.Size = new System.Drawing.Size(436, 15);
-            this.lab_Titre_2.TabIndex = 2;
-            this.lab_Titre_2.Text = "Votre outil centralisé pour la gestion et la recherche de stagiaires.";
-            this.lab_Titre_2.Click += new System.EventHandler(this.lab_Titre_2_Click);
             // 
             // lab_SousTitre
             // 
@@ -117,6 +82,43 @@ namespace projet_gestion_stagiaires_nour_nadir
     "s des \r\n                                            stagiaires. Voici ce que vou" +
     "s pouvez faire :\r\n\r\n\r\n";
             // 
+            // lab_Titre_Bienvenue
+            // 
+            this.lab_Titre_Bienvenue.AutoSize = true;
+            this.lab_Titre_Bienvenue.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.lab_Titre_Bienvenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_Titre_Bienvenue.ForeColor = System.Drawing.Color.White;
+            this.lab_Titre_Bienvenue.Location = new System.Drawing.Point(124, 19);
+            this.lab_Titre_Bienvenue.Name = "lab_Titre_Bienvenue";
+            this.lab_Titre_Bienvenue.Size = new System.Drawing.Size(624, 42);
+            this.lab_Titre_Bienvenue.TabIndex = 0;
+            this.lab_Titre_Bienvenue.Text = "Bienvenue sur la Plateforme Tuteur !";
+            this.lab_Titre_Bienvenue.Click += new System.EventHandler(this.lab_Titre_Bienvenue_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(-6, -1);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(949, 124);
+            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // lab_Titre_2
+            // 
+            this.lab_Titre_2.AutoSize = true;
+            this.lab_Titre_2.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.lab_Titre_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_Titre_2.ForeColor = System.Drawing.Color.White;
+            this.lab_Titre_2.Location = new System.Drawing.Point(213, 73);
+            this.lab_Titre_2.Name = "lab_Titre_2";
+            this.lab_Titre_2.Size = new System.Drawing.Size(393, 16);
+            this.lab_Titre_2.TabIndex = 2;
+            this.lab_Titre_2.Text = "Votre outil centralisé pour la gestion et la recherche de stagiaires.";
+            this.lab_Titre_2.Click += new System.EventHandler(this.lab_Titre_2_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lab_Explication_Lst_Stagiaire);
@@ -127,6 +129,18 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.groupBox1.Size = new System.Drawing.Size(327, 109);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // lab_Explication_Lst_Stagiaire
+            // 
+            this.lab_Explication_Lst_Stagiaire.AutoSize = true;
+            this.lab_Explication_Lst_Stagiaire.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab_Explication_Lst_Stagiaire.Location = new System.Drawing.Point(95, 48);
+            this.lab_Explication_Lst_Stagiaire.Name = "lab_Explication_Lst_Stagiaire";
+            this.lab_Explication_Lst_Stagiaire.Size = new System.Drawing.Size(230, 32);
+            this.lab_Explication_Lst_Stagiaire.TabIndex = 2;
+            this.lab_Explication_Lst_Stagiaire.Text = "Accédez à une liste complète de tous \r\nles stagiaires disponibles.\r\n";
+            this.lab_Explication_Lst_Stagiaire.Click += new System.EventHandler(this.label1_Click);
             // 
             // lab_Liste_Stagiaires
             // 
@@ -138,16 +152,15 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Liste_Stagiaires.TabIndex = 1;
             this.lab_Liste_Stagiaires.Text = "Liste des Stagiaires";
             // 
-            // lab_Explication_Lst_Stagiaire
+            // pictureBox1
             // 
-            this.lab_Explication_Lst_Stagiaire.AutoSize = true;
-            this.lab_Explication_Lst_Stagiaire.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_Explication_Lst_Stagiaire.Location = new System.Drawing.Point(95, 48);
-            this.lab_Explication_Lst_Stagiaire.Name = "lab_Explication_Lst_Stagiaire";
-            this.lab_Explication_Lst_Stagiaire.Size = new System.Drawing.Size(231, 32);
-            this.lab_Explication_Lst_Stagiaire.TabIndex = 2;
-            this.lab_Explication_Lst_Stagiaire.Text = "Accédez à une liste complète de tous \r\nles stagiaires disponibles.\r\n";
-            this.lab_Explication_Lst_Stagiaire.Click += new System.EventHandler(this.label1_Click);
+            this.pictureBox1.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.personnes;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(83, 84);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // groupBox2
             // 
@@ -159,6 +172,7 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.groupBox2.Size = new System.Drawing.Size(327, 109);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // lab_Explication_Recherche
             // 
@@ -166,9 +180,10 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Explication_Recherche.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_Explication_Recherche.Location = new System.Drawing.Point(95, 48);
             this.lab_Explication_Recherche.Name = "lab_Explication_Recherche";
-            this.lab_Explication_Recherche.Size = new System.Drawing.Size(195, 32);
+            this.lab_Explication_Recherche.Size = new System.Drawing.Size(194, 32);
             this.lab_Explication_Recherche.TabIndex = 2;
             this.lab_Explication_Recherche.Text = "Trouvez rapidement un stagiaire \r\npar nom ou prénom.\r\n";
+            this.lab_Explication_Recherche.Click += new System.EventHandler(this.lab_Explication_Recherche_Click);
             // 
             // lab_Rchr_Facile
             // 
@@ -179,6 +194,17 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Rchr_Facile.Size = new System.Drawing.Size(141, 19);
             this.lab_Rchr_Facile.TabIndex = 1;
             this.lab_Rchr_Facile.Text = "Recherche Facile";
+            this.lab_Rchr_Facile.Click += new System.EventHandler(this.lab_Rchr_Facile_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.loupe;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(83, 84);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // groupBox3
             // 
@@ -197,7 +223,7 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Explication_Filtrage.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_Explication_Filtrage.Location = new System.Drawing.Point(95, 48);
             this.lab_Explication_Filtrage.Name = "lab_Explication_Filtrage";
-            this.lab_Explication_Filtrage.Size = new System.Drawing.Size(189, 32);
+            this.lab_Explication_Filtrage.Size = new System.Drawing.Size(188, 32);
             this.lab_Explication_Filtrage.TabIndex = 2;
             this.lab_Explication_Filtrage.Text = "Affinez vos recherches par ville\r\n ou par formation (BTS, option).\r\n";
             // 
@@ -210,6 +236,16 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Fltg_Avance.Size = new System.Drawing.Size(125, 19);
             this.lab_Fltg_Avance.TabIndex = 1;
             this.lab_Fltg_Avance.Text = "Filtrage Avancé";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.filtre;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(83, 84);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // groupBox4
             // 
@@ -228,10 +264,11 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Explication_Fichhe_Detaille.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_Explication_Fichhe_Detaille.Location = new System.Drawing.Point(95, 48);
             this.lab_Explication_Fichhe_Detaille.Name = "lab_Explication_Fichhe_Detaille";
-            this.lab_Explication_Fichhe_Detaille.Size = new System.Drawing.Size(237, 80);
+            this.lab_Explication_Fichhe_Detaille.Size = new System.Drawing.Size(236, 80);
             this.lab_Explication_Fichhe_Detaille.TabIndex = 2;
             this.lab_Explication_Fichhe_Detaille.Text = "Consultez les informations complètes : \r\ncoordonnées, adresse, école et \r\nformati" +
     "on.\r\n\r\n\r\n";
+            this.lab_Explication_Fichhe_Detaille.Click += new System.EventHandler(this.lab_Explication_Fichhe_Detaille_Click);
             // 
             // lab_Fiche_detaillees
             // 
@@ -242,6 +279,16 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Fiche_detaillees.Size = new System.Drawing.Size(138, 19);
             this.lab_Fiche_detaillees.TabIndex = 1;
             this.lab_Fiche_detaillees.Text = "Fiches Détaillées\r\n";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.homme;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(83, 84);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // lab_Contact_Direct
             // 
@@ -260,9 +307,10 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.lab_Explication_Contact.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_Explication_Contact.Location = new System.Drawing.Point(95, 48);
             this.lab_Explication_Contact.Name = "lab_Explication_Contact";
-            this.lab_Explication_Contact.Size = new System.Drawing.Size(221, 32);
+            this.lab_Explication_Contact.Size = new System.Drawing.Size(220, 32);
             this.lab_Explication_Contact.TabIndex = 2;
             this.lab_Explication_Contact.Text = "Contactez un stagiaire en un clic via \r\nson adresse email.\r\n";
+            this.lab_Explication_Contact.Click += new System.EventHandler(this.lab_Explication_Contact_Click);
             // 
             // label8
             // 
@@ -284,50 +332,10 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.homme;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(83, 84);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.filtre;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(83, 84);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.loupe;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(83, 84);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::projet_gestion_stagiaires_nour_nadir.Properties.Resources.personnes;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 84);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // btn_Valider_Liste
             // 
             this.btn_Valider_Liste.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btn_Valider_Liste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Valider_Liste.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Valider_Liste.ForeColor = System.Drawing.Color.White;
             this.btn_Valider_Liste.Location = new System.Drawing.Point(227, 667);
             this.btn_Valider_Liste.Name = "btn_Valider_Liste";
@@ -340,7 +348,7 @@ namespace projet_gestion_stagiaires_nour_nadir
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(824, 703);
             this.button1.Name = "button1";
@@ -350,7 +358,7 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_Quitter
+            // fmr_Central
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -368,26 +376,26 @@ namespace projet_gestion_stagiaires_nour_nadir
             this.Controls.Add(this.lab_Titre_Bienvenue);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "btn_Quitter";
+            this.Name = "fmr_Central";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmr_Central";
             this.Load += new System.EventHandler(this.fmr_Central_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.lab_Contact_Direct.ResumeLayout(false);
             this.lab_Contact_Direct.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

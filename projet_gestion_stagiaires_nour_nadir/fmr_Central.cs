@@ -7,15 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Google.Cloud.Firestore;
 
 namespace projet_gestion_stagiaires_nour_nadir
 {
    
-    public partial class btn_Quitter : Form
+    public partial class fmr_Central : Form
     {
         //declaration  formulaire centrale
         Form fmr_Liste_Eleve = new fmr_Liste_Eleve();
-        public btn_Quitter()
+        public fmr_Central()
         {
             InitializeComponent();
         }
@@ -39,12 +40,54 @@ namespace projet_gestion_stagiaires_nour_nadir
         {
             // affichage du formulaire centrale
             fmr_Liste_Eleve.ShowDialog();
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //quitter l'application
             Application.Exit();
+        }
+
+        private void lab_Explication_Recherche_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab_Rchr_Facile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab_Explication_Fichhe_Detaille_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab_Explication_Contact_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab_Titre_Bienvenue_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

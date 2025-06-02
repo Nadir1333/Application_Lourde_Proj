@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace projet_gestion_stagiaires_nour_nadir
@@ -16,6 +13,8 @@ namespace projet_gestion_stagiaires_nour_nadir
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            // Lancement du formulaire de connexion
             Application.Run(new fmr_Connexion());
         }
     }
