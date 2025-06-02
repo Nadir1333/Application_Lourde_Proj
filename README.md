@@ -1,65 +1,73 @@
-# Application_Lourde_Proj
+# Application de gestion de stagiaires
 
-> **Projet de gestion de stagiaires / élèves – Windows Forms – C# / .NET**
-
----
-
-## 🚀 Présentation
-
-Cette application permet de **gérer une liste d'élèves ou de stagiaires** pour une entreprise ou un établissement scolaire.  
-Elle a été développée dans le cadre de la formation BTS SIO – Projet pédagogique personnel.
-
-### Fonctionnalités principales
-
-- **Authentification** (Connexion classique et Admin)
-- **Visualisation** de tous les élèves dans un tableau interactif (DataGridView)
-- **Recherche, filtrage** par classe et option (SLAM/SISR/etc)
-- **Ajout, suppression** d'élèves (mode Admin uniquement)
-- **Affichage des détails** d'un élève (formulaire pop-up)
-- **Connexion à Firebase** pour stocker/récupérer les données
-- Interface claire et adaptée au suivi de stagiaires
+**Projet BTS SIO — Application lourde C# WinForms connectée à Firebase**
 
 ---
 
-## 📸 Captures d’écran
+## 📦 Présentation
 
-> *(Ajoute ici des screenshots de ton application en fonctionnement, pour donner envie de tester !)*
+Cette application permet de **gérer une liste d’élèves/stagiaires** en entreprise :
+- Ajout, suppression, visualisation des élèves
+- Filtres avancés par option, classe, recherche…
+- Gestion des droits (mode admin/prof, boutons cachés pour les non-admins)
+- Connexion sécurisée via Firebase Authentication
+
+L’interface a été pensée pour être claire, rapide et adaptée aux besoins des entreprises comme des enseignants.
 
 ---
 
-## ⚙️ Installation
+## 🔥 Fonctionnalités principales
 
-### Prérequis
+- **Connexion par identifiant/mot de passe (Firebase Auth)**
+- **Affichage dynamique des élèves depuis Firebase**
+- **Ajout/suppression d’élèves** (mode admin uniquement)
+- **Recherche et filtres multicritères** (nom, prénom, classe, option)
+- **Contact d’un élève** (pop-up fiche élève)
+- **Interface adaptée au rôle :**  
+  - Les boutons « Ajouter/Supprimer » sont visibles seulement pour l’admin
+  - Les autres utilisateurs voient la liste en lecture seule
 
-- Windows 10/11
-- [Visual Studio 2019/2022](https://visualstudio.microsoft.com/fr/)
-- [.NET Framework 4.7.2+](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
-- Un compte [Firebase](https://firebase.google.com/) (pour la connexion/données)
+---
 
-### Étapes
+## 🖥️ Technologies utilisées
 
-1. **Clone le projet :**
+- **C# / .NET (WinForms)**
+- **Firebase** (Realtime Database + Authentification)
+- Visual Studio 2022/2019  
+- Git & GitHub
+
+---
+
+## 🚀 Installation
+
+1. **Cloner le dépôt**
     ```bash
     git clone https://github.com/Nadir1333/Application_Lourde_Proj.git
     ```
-2. **Ouvre le dossier dans Visual Studio** (`.sln`)
-3. **Ajoute tes informations Firebase :**  
-    Dans le fichier de configuration ou directement dans le code (`FirebaseClient.cs`), mets tes credentials Firebase.
-4. **Build & exécute :**  
-    Clique sur "Démarrer" ou appuie sur `F5` dans Visual Studio.
+2. **Ouvrir le projet sous Visual Studio**  
+   Fichier → Ouvrir → Projet/Solution → Sélectionner `.sln`
+
+3. **Vérifier la connexion Firebase**
+    - Renseigner les paramètres Firebase dans le code si besoin (fichier `FirebaseClient.cs`)
+
+4. **Lancer l’application**
+    - Appuyer sur `F5` (ou bouton "démarrer") dans Visual Studio
 
 ---
 
-## 👨‍💻 Utilisation
+## ⚙️ Configuration Firebase (à adapter selon ton projet)
 
-- **Connexion admin :**  
-  Identifiant admin → `admin@op.com` (modifiable dans le code)
-- **Connexion classique :**  
-  Un compte standard créé dans Firebase
-- **Ajouter/Supprimer :**  
-  Boutons visibles uniquement en mode admin
+> 🔒 Les identifiants Firebase ne sont pas inclus dans ce repo pour des raisons de sécurité.  
+> Pour l’intégration, renseigner l’URL de la Realtime Database et les clés API dans le fichier concerné.
 
 ---
 
-## 📝 Structure du projet
+## 👤 Gestion des droits (mode admin/prof)
+
+- L’**admin** se connecte avec un email/mot de passe défini (ex: `admin@op.com`)
+- **Seul l’admin** peut ajouter ou supprimer des élèves.
+- Les profs/visiteurs peuvent uniquement consulter les listes.
+
+---
+
 
